@@ -10,7 +10,6 @@
 #define TOKEN_CUSTOM_DEC        TOKEN_START+6
 
 int main(){
-
     KeywordMap kwm = KeywordMap_Make((KeywordRP[]){
         KeywordRP_New("Hello",TOKEN_CUSTOM_HELLO),
         KeywordRP_New("World",TOKEN_CUSTOM_WORLD),
